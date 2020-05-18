@@ -1,0 +1,44 @@
+{
+  "name": "c32",
+  "version": "1.0.0",
+  "description": "test case with react / redux / next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/askerpro/c32.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "next.js",
+    "javascript",
+    "api"
+  ],
+  "author": "asker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/askerpro/c32/issues"
+  },
+  "homepage": "https://github.com/askerpro/c32#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "prop-types": "15.7.2",
+    "react-dom": "^16.7.0",
+    "next": "^9.4.0",
+    "styled-components": "^5.1.0",
+    "node-fetch": "^2.6.0",
+    "dotenv": "^8.2.0",
+    "react-infinite-scroll-component": "^5.0.4",
+    "normalize.css": "^8.0.1",
+    "pure-react-carousel": "^1.27.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0",
+    "@svgr/webpack": "^5.4.0"
+  }
+}
